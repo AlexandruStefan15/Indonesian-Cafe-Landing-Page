@@ -655,7 +655,8 @@ section.testimonials {
 	}
 
 	.reservation .image-wrapper {
-		width: 67%;
+		width: 100%;
+		max-width: 600px;
 		margin: 0 auto;
 	}
 
@@ -785,7 +786,7 @@ section.testimonials {
 	header nav .hamburger-menu > span.whiteBurger:nth-child(1) {
 		transform: rotate(-40deg);
 		transform-origin: top right;
-		transition: background-color 2.5s ease-in-out, opacity 1s ease-in-out, transform 1s ease-in-out;
+		transition: background-color 2s ease-in-out, opacity 1s ease-in-out, transform 1s ease-in-out;
 	}
 
 	header nav .hamburger-menu > span.whiteBurger:nth-child(2) {
@@ -796,7 +797,7 @@ section.testimonials {
 	header nav .hamburger-menu > span.whiteBurger:nth-child(3) {
 		transform: rotate(40deg);
 		transform-origin: bottom right;
-		transition: background-color 2.5s ease-in-out, opacity 1s ease-in-out, transform 1s ease-in-out;
+		transition: background-color 2s ease-in-out, opacity 1s ease-in-out, transform 1s ease-in-out;
 	}
 
 	header nav .hamburger-menu > span.greenBurger:nth-child(1) {
@@ -931,10 +932,6 @@ section.testimonials {
 	section.reservation {
 		margin-bottom: 2em;
 		margin-top: 4em;
-	}
-
-	.reservation .image-wrapper {
-		width: min(96%, 600px);
 	}
 }
 
