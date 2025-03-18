@@ -10,8 +10,6 @@ https://www.figma.com/community/file/1143814225687471258/indonesian-cafe-landing
 npm install
 ```
 
- <br>
-
 ## Step 2: Start the project
 
 ```sh
