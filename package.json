@@ -1,0 +1,16 @@
+{
+	"name": "indonesian-cafe-landing-page",
+	"version": "1.0.0",
+	"description": "A simple one-page presentational website. The design is inspired by Annisa Az Zahra, you can check her Figma profile at:  https://www.figma.com/community/file/1143814225687471258/indonesian-cafe-landing-page-soree-palembang  <br>   <br>",
+	"main": "script.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npx live-server"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"live-server": "^1.2.2"
+	}
+}
